@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.412",
-    "package":  "MiraeLanMessenger_0.3.412.zip",
-    "sha256":  "7da12ee86353c67bff475580a003b1b18fb199aba040f06143a472e59c2130af",
-    "publishedAtUtc":  "2026-08-26T05:26:58.5729604+00:00",
+    "version":  "0.3.413",
+    "package":  "MiraeLanMessenger_0.3.413.zip",
+    "sha256":  "87b64100c6574c48605a7aafed188691735f3daa33c053078a909e1c624b49c8",
+    "publishedAtUtc":  "2026-08-26T08:42:54.7381013+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.412\r\n\r\n- 1:1 대화에서 메시지가 로컬 DB에 저장되면 전송 상태 확인이나 오프라인 중계가 끝나기 전에 내 말풍선을 즉시 표시합니다.\r\n- 전체 대화 검색 결과에서 과거 메시지로 이동한 상태에서 보내도 최신 대화 흐름으로 복귀하여 새 메시지가 숨지 않습니다.\r\n- 발신 버튼이 최근 40건 전체 재조회 완료를 기다리지 않도록 바꾸고 상태 갱신은 백그라운드에서 보강합니다.\r\n- 그룹 대화에도 같은 즉시 표시 방식을 적용했습니다.\r\n- v0.3.411의 시작 온라인 상태 빠른 표시와 컬러 하단 아이콘은 그대로 유지합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.412/MiraeLanMessenger_0.3.412.zip"
+    "releaseNotes":  "v0.3.413\r\n\r\n- 통합 수신창 기준은 메시지 총건수가 아니라 서로 다른 1:1 상대 및 그룹 대화방 개수로 계산합니다.\r\n- 한 사람이 여러 메시지를 보내면 기존 개인 수신창 하나에서 `새 메시지 N개`로 표시합니다.\r\n- 같은 그룹방에서 여러 사람이 보낸 메시지도 그룹 대화방 1개로 계산합니다.\r\n- 화면보호기와 기본 화면 설정 모두 동일한 기준을 사용합니다.\r\n- 설정 화면의 단위를 `건부터`에서 `개 대화부터`로 변경했습니다.\r\n- v0.3.412의 발신 말풍선 즉시 표시 수정은 그대로 유지합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.413/MiraeLanMessenger_0.3.413.zip"
 }
