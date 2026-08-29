@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.423",
-    "package":  "MiraeLanMessenger_0.3.423.zip",
-    "sha256":  "bb9b6e4bc66659a5f9966e2a5c88a4ed0de83f5960503ddf6315f7b3e4ec7b20",
-    "publishedAtUtc":  "2026-08-28T13:31:02.1023109+00:00",
+    "version":  "0.3.424",
+    "package":  "MiraeLanMessenger_0.3.424.zip",
+    "sha256":  "3b7577a4231dae799e02cf62b371cc2f6f39038bf5b6504ac87821a392763c3f",
+    "publishedAtUtc":  "2026-08-29T00:58:36.7019352+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.423\r\n\r\n- 1:1 대화와 그룹 대화의 상대방 말풍선 우클릭 메뉴를 파란 체크, 하트, 엄지, 구분선, 답장, 대화 복사 순서로 정리했습니다.\r\n- 첨부가 있는 메시지의 파일 관련 메뉴는 기본 대화 명령 아래에 이어집니다.\r\n- 내 말풍선에서는 상대방 전용 반응 메뉴와 해당 구분선을 함께 숨겨 빈 구분선이 남지 않습니다.\r\n- V12의 날짜·읽음 표시 간격 축소와 그룹 반응 참여자 확인 기능을 그대로 유지합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.423/MiraeLanMessenger_0.3.423.zip"
+    "releaseNotes":  "v0.3.424\r\n\r\n- 1:1 메시지, 선택·전체메시지, 긴급공지는 동일한 `MessageReceiveWindow`를 사용하므로 V15의 좌우 분리 디자인이 모두 적용되는 경로를 확인했습니다.\r\n- 일반·전체·긴급 수신창은 왼쪽에 `답장에 원문 포함`, 오른쪽에 `이전 기록 → 닫기`를 표시합니다.\r\n- 메시지를 연 뒤에는 답장 버튼이 가장 오른쪽에 나타나며 기존 확대 너비를 유지합니다.\r\n- 그룹대화 수신창은 원문 인용 기능이 없으므로 오른쪽의 현대형 `이전 기록 → 닫기` 구성을 유지합니다.\r\n- 여러 메시지가 한꺼번에 도착할 때 열리는 통합 수신함의 기존 회색 닫기를 공통 빨간 닫기 버튼으로 교체하고 오른쪽 정렬을 유지했습니다.\r\n- 공지사항 전달창의 기존 흰색 닫기도 공통 빨간 닫기 버튼으로 교체하고 오른쪽 정렬을 유지했습니다.\r\n- 공지사항 전달창의 큰 `공지사항 열기` 버튼과 통합 수신함의 사용자·그룹 선택 동작은 변경하지 않았습니다.\r\n- 모든 수신창 닫기 버튼은 기존 `Close_Click` 경로를 그대로 사용해 기능 동작에는 영향을 주지 않습니다.\r\n- V11~V15의 수신 성능 개선, 수신창·메시지형 작성창 현대화와 좌우 배치 변경을 모두 포함합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.424/MiraeLanMessenger_0.3.424.zip"
 }
