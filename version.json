@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.426",
-    "package":  "MiraeLanMessenger_0.3.426.zip",
-    "sha256":  "cd082e324faf66c65706b16609735e0f3e236c454d1e2570f62053e15b560088",
-    "publishedAtUtc":  "2026-08-29T07:10:45.1415429+00:00",
+    "version":  "0.3.427",
+    "package":  "MiraeLanMessenger_0.3.427.zip",
+    "sha256":  "af8f1547ab4174b01204b83120ec2ffd64ecb6642680fa65220e28649b50d372",
+    "publishedAtUtc":  "2026-08-30T05:41:22.2573450+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.426\r\n\r\n- 확대 이미지에서 마우스 왼쪽 버튼을 누른 채 위로 끌면 화면이 이미지 아래쪽으로 이동합니다.\r\n- 아래로 끌면 이미지 위쪽, 오른쪽으로 끌면 이미지 왼쪽, 왼쪽으로 끌면 이미지 오른쪽으로 이동합니다.\r\n- 가로·세로 이동량을 동시에 계산하므로 모든 대각선 방향을 지원합니다.\r\n- 드래그 중 마우스를 캡처해 포인터가 이미지 밖으로 나가거나 빠르게 움직여도 이동이 유지됩니다.\r\n- 실제 확대되어 스크롤 가능한 이미지에서만 드래그가 시작되고 누르는 동안 손 모양 커서로 바뀝니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.426/MiraeLanMessenger_0.3.426.zip"
+    "releaseNotes":  "v0.3.427\r\n\r\n- 병동 전실의 환자 이름 클릭 복사와 우클릭 `문구 복사`가 동일한 안전 복사 경로를 사용합니다.\r\n- 다른 프로그램이 클립보드를 잠시 점유하면 UI를 멈추지 않고 짧게 재시도합니다.\r\n- `CLIPBRD_E_CANT_OPEN (0x800401D0)` 예외가 처리되지 않은 프로그램 오류창으로 나타나지 않습니다.\r\n- 재시도 후에도 복사하지 못한 경우에만 사용자용 안내창을 표시합니다.\r\n- 사용자 지정 달력 버튼을 다시 누르거나 바깥 영역을 클릭하면 달력이 닫힙니다.\r\n- 병동 전실 전체 현황에서 도착 병동 필터를 제거했습니다.\r\n- 메인 전실과 전체 현황에서 이름 클릭 및 우클릭 메뉴로 전실 문구를 복사할 수 있습니다.\r\n- 전실 등록·수정 창에서 시간 선택 입력란을 제거했습니다.\r\n- 신규 등록 및 기존 내역 수정 저장 시 전실 시간은 빈 값으로 저장됩니다.\r\n- 기존 자료에 시간이 남아 있어도 전실 문구 복사에는 `yyyy.MM.dd` 날짜만 표시됩니다.\r\n- 메인 프로그램, 업데이트 프로그램, VERSION.txt: `0.3.427`",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.427/MiraeLanMessenger_0.3.427.zip"
 }
