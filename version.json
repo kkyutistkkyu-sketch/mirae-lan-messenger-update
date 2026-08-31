@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.431",
-    "package":  "MiraeLanMessenger_0.3.431.zip",
-    "sha256":  "88542656c29bb9a44b91d46431821f673c1a325aab35ca555b9e1e30a64a682d",
-    "publishedAtUtc":  "2026-08-31T03:09:27.4556494+00:00",
+    "version":  "0.3.432",
+    "package":  "MiraeLanMessenger_0.3.432.zip",
+    "sha256":  "ddc08e2773476be5a4c0d805f9ff195369f6839f6f2398154630f7f5a9a1709b",
+    "publishedAtUtc":  "2026-08-31T03:48:31.0184512+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.431\r\n\r\n- 전체 대화의 `대화` 탭에서 1:1과 함께 표시되는 그룹 기록에 `그룹 대화` 배지를 표시합니다.\r\n- 그룹 배지는 연한 보라색 배경과 보라색 테두리·글자를 사용해 일반 1:1 배지와 시각적으로 구분합니다.\r\n- 그룹 기록에도 `대화창 바로가기` 버튼과 더블클릭 이동을 제공합니다.\r\n- 그룹방을 연 뒤 선택한 메시지 ID의 말풍선을 화면 중앙으로 이동하고 본문 전체를 선택합니다.\r\n- 현재 DB에 메시지가 없으면 안전 백업에서 전후 문맥을 확인해 오래된 그룹 기록도 이동합니다.\r\n- 그룹 대화 전용 탭의 기존 이동 기능과 동일한 메시지 점프 경로를 사용합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.431/MiraeLanMessenger_0.3.431.zip"
+    "releaseNotes":  "v0.3.432\r\n\r\n- 다중 선택용 `PreviewMouseLeftButtonDown`이 두 번째 클릭을 처리 완료로 표시해 기존 `MouseDoubleClick`이 발생하지 않던 원인을 수정했습니다.\r\n- 1:1 대화 목록에서 두 번째 클릭을 직접 감지해 해당 사용자 대화창을 엽니다.\r\n- 그룹 대화 목록에서도 같은 방식으로 해당 그룹방을 엽니다.\r\n- 더블클릭 시 클릭한 항목만 선택하고 선택 기준점을 갱신합니다.\r\n- Ctrl 클릭, Shift 범위 선택, Ctrl+Shift 범위 추가와 우클릭 일괄 작업은 유지합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.432/MiraeLanMessenger_0.3.432.zip"
 }
