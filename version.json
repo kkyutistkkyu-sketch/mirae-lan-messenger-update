@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.436",
-    "package":  "MiraeLanMessenger_0.3.436.zip",
-    "sha256":  "12cf1d6ccaba56782b726a0cdfcc4122c635f71edcd6aa920ddf55167965299c",
-    "publishedAtUtc":  "2026-09-01T08:14:48.1190194+00:00",
+    "version":  "0.3.438",
+    "package":  "MiraeLanMessenger_0.3.438.zip",
+    "sha256":  "eea782c0471ff4f5e819add6726d91bd5aedd931d2593c2e0f52d5f638fd4d8f",
+    "publishedAtUtc":  "2026-09-01T23:17:47.2525008+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.436\r\n\r\n- 자동 업데이트와 관리자 무인 업데이트는 파일 다운로드, SHA-256 검증, 압축 해제, 사용자 데이터 백업을 실행 중 백그라운드에서 완료합니다.\r\n- 준비가 끝나도 활성 메신저 창에서 입력·클릭이 이어지는 동안에는 종료하지 않습니다.\r\n- 창을 닫아 트레이에 숨겼거나 최소화했거나 다른 프로그램을 사용하는 경우, 또는 메신저 활동이 15초 동안 없을 때만 최종 교체를 시작합니다.\r\n- 사용자가 설정에서 직접 실행한 수동 업데이트는 명시적 요청이므로 기존처럼 즉시 전환합니다.\r\n- 최종 전환 직전에 창 상태와 작성 문구, 커서, 답장 대상, 미전송 첨부를 다시 저장해 재시작 후 복원합니다.\r\n- 1:1·그룹 대화에서 글자마다 WPF `DispatcherTimer`를 중지하고 다시 시작하던 작업을 제거했습니다.\r\n- 입력 이벤트는 네이티브 지연 신호만 갱신하며, 실제 초안 반영·저장은 입력이 멈춘 뒤 `ContextIdle` 우선순위에서 한 번만 실행합니다.\r\n- 전송 성공과 창 닫기 순간의 즉시 저장은 유지해 성능 개선 때문에 작성 내용이 사라지지 않도록 했습니다.\r\n- 메시지 수신, 읽음 처리, 링크 썸네일 로드는 기존 비동기 경로를 유지합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.436/MiraeLanMessenger_0.3.436.zip"
+    "releaseNotes":  "v0.3.438\r\n\r\n- 온라인 사용자는 직접 전송 경로를 우선하고, 오프라인 중계 저장 작업과 분리해 채팅 반응성을 유지합니다.\r\n- 그룹 메시지·읽음·전달 이벤트가 몰릴 때 전체 목록 재생성을 피하고 기존 행 중심으로 동기화합니다.\r\n- 대량 첨부 준비, 이미지 디코딩, 데이터베이스 기록, 진행률 갱신에 이미 적용된 제한 동시성과 병합 갱신 구조를 유지합니다.\r\n- 메인 프로그램과 업데이터의 Version, AssemblyVersion, FileVersion, InformationalVersion을 모두 0.3.438로 통일했습니다.\r\n- VERSION.txt와 프로젝트 버전 불일치로 START_BUILD_WINDOW.bat가 1단계에서 중단되던 문제를 수정했습니다.\r\n- 소스 최상위 폴더명을 v0_3_438_SOURCE로 정리하고 손상된 한글 CMD 파일명을 복원했습니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.438/MiraeLanMessenger_0.3.438.zip"
 }
