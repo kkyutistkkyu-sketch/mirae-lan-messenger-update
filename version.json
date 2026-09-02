@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.438",
-    "package":  "MiraeLanMessenger_0.3.438.zip",
-    "sha256":  "eea782c0471ff4f5e819add6726d91bd5aedd931d2593c2e0f52d5f638fd4d8f",
-    "publishedAtUtc":  "2026-09-01T23:17:47.2525008+00:00",
+    "version":  "0.3.442",
+    "package":  "MiraeLanMessenger_0.3.442.zip",
+    "sha256":  "88dd34e109c0f4358b264e1fc5c377d8711ee541619ccad19dcefd3bbd66faa0",
+    "publishedAtUtc":  "2026-09-02T03:15:06.0909029+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.438\r\n\r\n- 온라인 사용자는 직접 전송 경로를 우선하고, 오프라인 중계 저장 작업과 분리해 채팅 반응성을 유지합니다.\r\n- 그룹 메시지·읽음·전달 이벤트가 몰릴 때 전체 목록 재생성을 피하고 기존 행 중심으로 동기화합니다.\r\n- 대량 첨부 준비, 이미지 디코딩, 데이터베이스 기록, 진행률 갱신에 이미 적용된 제한 동시성과 병합 갱신 구조를 유지합니다.\r\n- 메인 프로그램과 업데이터의 Version, AssemblyVersion, FileVersion, InformationalVersion을 모두 0.3.438로 통일했습니다.\r\n- VERSION.txt와 프로젝트 버전 불일치로 START_BUILD_WINDOW.bat가 1단계에서 중단되던 문제를 수정했습니다.\r\n- 소스 최상위 폴더명을 v0_3_438_SOURCE로 정리하고 손상된 한글 CMD 파일명을 복원했습니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.438/MiraeLanMessenger_0.3.438.zip"
+    "releaseNotes":  "v0.3.442\r\n\r\n- Windows WPF build error CS1061 in `Models/ChatMessage.cs`.\r\n- `FormattedText.HeightIncludingTrailingWhitespace` is not a valid WPF `FormattedText` property.\r\n- Replaced it with supported `FormattedText.Height`.\r\n- No feature/version behavior change.\r\n- Keeps v0.3.442.\r\n- Compact chat full-view threshold still uses measured text height with the configured line height and width.\r\n- Existing v0.3.442 UI changes remain intact.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.442/MiraeLanMessenger_0.3.442.zip"
 }
