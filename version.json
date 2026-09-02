@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.442",
-    "package":  "MiraeLanMessenger_0.3.442.zip",
-    "sha256":  "88dd34e109c0f4358b264e1fc5c377d8711ee541619ccad19dcefd3bbd66faa0",
-    "publishedAtUtc":  "2026-09-02T03:15:06.0909029+00:00",
+    "version":  "0.3.444",
+    "package":  "MiraeLanMessenger_0.3.444.zip",
+    "sha256":  "05bc30e951328eebba882de125263d1d8e415f8aeab18f7904c64d66500c63a7",
+    "publishedAtUtc":  "2026-09-02T04:11:25.9926434+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.442\r\n\r\n- Windows WPF build error CS1061 in `Models/ChatMessage.cs`.\r\n- `FormattedText.HeightIncludingTrailingWhitespace` is not a valid WPF `FormattedText` property.\r\n- Replaced it with supported `FormattedText.Height`.\r\n- No feature/version behavior change.\r\n- Keeps v0.3.442.\r\n- Compact chat full-view threshold still uses measured text height with the configured line height and width.\r\n- Existing v0.3.442 UI changes remain intact.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.442/MiraeLanMessenger_0.3.442.zip"
+    "releaseNotes":  "v0.3.444\r\n\r\n- 상대 PC가 온라인이지만 전달 ACK를 받지 못한 경우 `전송 실패`로 단정하지 않고 `수신 확인 대기`로 표시합니다.\r\n- 실제 저장 ACK가 확인된 1:1 메시지는 상대방이 열기 전 `1`, 열람하면 `읽음`으로 표시합니다.\r\n- v0.3.443 이전 DB에 `전송 실패`로 남은 1:1 발신 기록은 v0.3.444 첫 실행 시 `수신 확인 대기`로 자동 변환합니다.\r\n- `수신 확인 대기`는 기존 대기/실패 기록과 동일하게 자동 재전송·재확인 대상에 포함합니다.\r\n- 본문 마우스 휠을 WPF 기본 줄 단위가 아니라 실제 ScrollViewer 세로 오프셋 기반 픽셀 스크롤로 변경했습니다.\r\n- 휠 Delta가 작은 고해상도 마우스도 비례 이동합니다.\r\n- 텍스트 선택, 전체 복사, 스크롤바 드래그, 하단 이미지 미리보기/독립 이미지 뷰어는 유지합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.444/MiraeLanMessenger_0.3.444.zip"
 }
