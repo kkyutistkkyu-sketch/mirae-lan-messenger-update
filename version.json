@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.474",
-    "package":  "MiraeLanMessenger_0.3.474.zip",
-    "sha256":  "7bc70de2311f90c1e882c3c8adfa060a16d47dc9d029ac95f9794b6729edfdb5",
-    "publishedAtUtc":  "2026-09-08T08:14:15.3666361+00:00",
+    "version":  "0.3.475",
+    "package":  "MiraeLanMessenger_0.3.475.zip",
+    "sha256":  "35392cb9720fd0b445a47efca49d363ee57db7fd590972f65f2dd9c6708d2707",
+    "publishedAtUtc":  "2026-09-08T08:28:03.5106731+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.474\r\n\r\n- 상단 롤링 공지 배너의 바깥 테두리를 각진 형태로 변경했습니다(CornerRadius 0).\r\n- 배너 좌우 여백을 각각 10으로 맞춰 바로 위의 필터·버튼 영역과 양쪽 끝을 정렬했습니다.\r\n- 기존 배너 색상, 높이, 상하 간격, 제목 정렬, 자동 롤링 및 클릭 동작은 유지됩니다.\r\n- 앱과 업데이터 버전은 0.3.474 그대로입니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.474/MiraeLanMessenger_0.3.474.zip"
+    "releaseNotes":  "v0.3.475\r\n\r\n- 이전 휠 입력을 누적한 상태에서 반대 방향 입력을 더해 서로 상쇄될 수 있었습니다.\r\n- 위·아래 끝에 도달한 뒤에도 남은 입력을 타이머가 계속 소비했습니다. 목록을 바꾸면 이전 목록의 대기 이동을 한 번 실행하는 경로도 있었습니다.\r\n- 사용자·즐겨찾기 바깥 목록은 일반 ItemsControl인데, 전역 스크롤 서비스는 ListBox/ListView/TreeView/DataGrid만 가상화 대상으로 판정했습니다. 그 결과 해당 ScrollViewer의 CanContentScroll이 False로 덮어써질 수 있었습니다.\r\n- 반대 방향 또는 다른 목록의 입력이 들어오면 이전 대기 입력과 타이머를 정리합니다.\r\n- 목록 끝, 숨김/해제된 목록, 스크롤할 수 없는 목록에서는 대기 처리를 중단합니다.\r\n- 휠 타이머를 DispatcherPriority.Input으로 실행하고, 누적 입력을 처리하는 동안 상태·필터 갱신의 기존 입력 보호 시간을 갱신합니다.\r\n- 기존 26ms 처리 간격, 틱당 최대 두 노치, 픽셀 이동 계수 0.34는 유지했습니다.\r\n- PreservePixelVirtualization 첨부 속성을 사용자·즐겨찾기 두 목록에만 적용합니다. 다른 창과 본문 스크롤 정책은 유지합니다.\r\n- 공지 배너 파일과 일정표 디자인은 유지하고 앱·업데이터 버전을 0.3.475로 올렸습니다.\r\n- [Microsoft: WPF 컨트롤 성능 최적화](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/advanced/optimizing-performance-controls)\r\n- [Microsoft: DispatcherTimer 생성자와 기본 우선순위](https://learn.microsoft.com/en-us/dotnet/api/system.windows.threading.dispatchertimer.-ctor?view=windowsdesktop-10.0)",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.475/MiraeLanMessenger_0.3.475.zip"
 }
