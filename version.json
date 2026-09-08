@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.473",
-    "package":  "MiraeLanMessenger_0.3.473.zip",
-    "sha256":  "54ff1cff9eb451bd890058a07b4febdaab3635c88085f54871146b612e77cb38",
-    "publishedAtUtc":  "2026-09-08T06:33:49.1743873+00:00",
+    "version":  "0.3.474",
+    "package":  "MiraeLanMessenger_0.3.474.zip",
+    "sha256":  "7bc70de2311f90c1e882c3c8adfa060a16d47dc9d029ac95f9794b6729edfdb5",
+    "publishedAtUtc":  "2026-09-08T08:14:15.3666361+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.473\r\n\r\n- 외진일정 등록 버튼: 배경을 진한 회색(#444B53), 테두리를 어두운 회색(#343B43)으로 변경했습니다.\r\n- 병동 드롭박스: 기본 테두리와 펼침 목록 테두리를 청회색(#B7C7D5)으로 변경했습니다.\r\n- 드롭박스 화살표, 글자, 마우스를 올린 상태, 펼친 상태, 목록 선택 색상까지 청회색 계열로 맞췄습니다.\r\n- 외진일정의 연한 청회색 머리글, 빨간 변동 버튼, 병동별 색상, 등록 권한과 클릭 동작은 유지됩니다.\r\n- 앱 및 업데이트 버전은 0.3.473으로 유지됩니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.473/MiraeLanMessenger_0.3.473.zip"
+    "releaseNotes":  "v0.3.474\r\n\r\n- 상단 롤링 공지 배너의 바깥 테두리를 각진 형태로 변경했습니다(CornerRadius 0).\r\n- 배너 좌우 여백을 각각 10으로 맞춰 바로 위의 필터·버튼 영역과 양쪽 끝을 정렬했습니다.\r\n- 기존 배너 색상, 높이, 상하 간격, 제목 정렬, 자동 롤링 및 클릭 동작은 유지됩니다.\r\n- 앱과 업데이터 버전은 0.3.474 그대로입니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.474/MiraeLanMessenger_0.3.474.zip"
 }
