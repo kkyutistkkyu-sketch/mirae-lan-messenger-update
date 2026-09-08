@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.472",
-    "package":  "MiraeLanMessenger_0.3.472.zip",
-    "sha256":  "0be060edc47487835cc49c2e58ce32232f3cf0d518fcb605d652c1bd03538d18",
-    "publishedAtUtc":  "2026-09-08T06:03:47.9230351+00:00",
+    "version":  "0.3.473",
+    "package":  "MiraeLanMessenger_0.3.473.zip",
+    "sha256":  "54ff1cff9eb451bd890058a07b4febdaab3635c88085f54871146b612e77cb38",
+    "publishedAtUtc":  "2026-09-08T06:33:49.1743873+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.472\r\n\r\n- 롤링 배너 영역의 바탕을 흰색으로 지정해 주황색 배너 주변에 보이던 회색 띠를 제거했습니다.\r\n- 주황색 배너와 기존 여백·한 줄 높이는 유지합니다. 화살표 수직 중앙 정렬과 다음 공지 이동도 함께 포함합니다.\r\n- 앱과 업데이터 버전은 0.3.472 그대로입니다.\r\n- 검증: 변경 XAML XML 문법, 흰 배경 안의 기존 배너 구성 유지, 앱 소스 변경 범위, 버전 파일 일치 및 ZIP 무결성 확인.\r\n- Windows WPF 실제 화면 실행 검증은 이 환경에서 하지 못했습니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.472/MiraeLanMessenger_0.3.472.zip"
+    "releaseNotes":  "v0.3.473\r\n\r\n- 외진일정 등록 버튼: 배경을 진한 회색(#444B53), 테두리를 어두운 회색(#343B43)으로 변경했습니다.\r\n- 병동 드롭박스: 기본 테두리와 펼침 목록 테두리를 청회색(#B7C7D5)으로 변경했습니다.\r\n- 드롭박스 화살표, 글자, 마우스를 올린 상태, 펼친 상태, 목록 선택 색상까지 청회색 계열로 맞췄습니다.\r\n- 외진일정의 연한 청회색 머리글, 빨간 변동 버튼, 병동별 색상, 등록 권한과 클릭 동작은 유지됩니다.\r\n- 앱 및 업데이트 버전은 0.3.473으로 유지됩니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.473/MiraeLanMessenger_0.3.473.zip"
 }
