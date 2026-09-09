@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.475",
-    "package":  "MiraeLanMessenger_0.3.475.zip",
-    "sha256":  "35392cb9720fd0b445a47efca49d363ee57db7fd590972f65f2dd9c6708d2707",
-    "publishedAtUtc":  "2026-09-08T08:28:03.5106731+00:00",
+    "version":  "0.3.476",
+    "package":  "MiraeLanMessenger_0.3.476.zip",
+    "sha256":  "35ddee71ecfbec4efc7d22561343f8bdb6b26f2b69f1d1a0bdd01ee2f6e10ef3",
+    "publishedAtUtc":  "2026-09-09T01:57:13.4829452+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.475\r\n\r\n- 이전 휠 입력을 누적한 상태에서 반대 방향 입력을 더해 서로 상쇄될 수 있었습니다.\r\n- 위·아래 끝에 도달한 뒤에도 남은 입력을 타이머가 계속 소비했습니다. 목록을 바꾸면 이전 목록의 대기 이동을 한 번 실행하는 경로도 있었습니다.\r\n- 사용자·즐겨찾기 바깥 목록은 일반 ItemsControl인데, 전역 스크롤 서비스는 ListBox/ListView/TreeView/DataGrid만 가상화 대상으로 판정했습니다. 그 결과 해당 ScrollViewer의 CanContentScroll이 False로 덮어써질 수 있었습니다.\r\n- 반대 방향 또는 다른 목록의 입력이 들어오면 이전 대기 입력과 타이머를 정리합니다.\r\n- 목록 끝, 숨김/해제된 목록, 스크롤할 수 없는 목록에서는 대기 처리를 중단합니다.\r\n- 휠 타이머를 DispatcherPriority.Input으로 실행하고, 누적 입력을 처리하는 동안 상태·필터 갱신의 기존 입력 보호 시간을 갱신합니다.\r\n- 기존 26ms 처리 간격, 틱당 최대 두 노치, 픽셀 이동 계수 0.34는 유지했습니다.\r\n- PreservePixelVirtualization 첨부 속성을 사용자·즐겨찾기 두 목록에만 적용합니다. 다른 창과 본문 스크롤 정책은 유지합니다.\r\n- 공지 배너 파일과 일정표 디자인은 유지하고 앱·업데이터 버전을 0.3.475로 올렸습니다.\r\n- [Microsoft: WPF 컨트롤 성능 최적화](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/advanced/optimizing-performance-controls)\r\n- [Microsoft: DispatcherTimer 생성자와 기본 우선순위](https://learn.microsoft.com/en-us/dotnet/api/system.windows.threading.dispatchertimer.-ctor?view=windowsdesktop-10.0)",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.475/MiraeLanMessenger_0.3.475.zip"
+    "releaseNotes":  "v0.3.476\r\n\r\n- 기존 사용자 병합 검증을 통과한 경우에만 대화 기록, 파일 수신자 기록, 완료 확인의 발신자 주소를 함께 변경합니다. 모두 같은 DB 트랜잭션으로 처리합니다.\r\n- 이전 ID와 새 ID 양쪽에 파일 기록이 있으면 다운로드 완료를 보존하고 중복 인원은 합칩니다. 대기 상태를 완료로 추정하지 않습니다.\r\n- 검증된 병합의 이전 ID→새 ID 관계를 보관합니다. 병합 직전 이전 ID로 보낸 늦은 완료 확인도 현재 수신자 기록에 반영됩니다.\r\n- 시작 시 과거 병합으로 어긋난 첨부 기록을 최초 한 번 복구합니다. `identity_merge` 이력과 같은 메시지의 이전/현재 ID가 근거이며, 후보가 여럿이거나 근거가 없는 경우는 자동 변경하지 않습니다. 그룹 기록만 있고 이전→현재 ID를 증명할 정보가 없으면 추정 복구하지 않습니다.\r\n- 병합 후 열린 대화창에도 복구한 완료 상태를 전달하고, 주소가 바뀐 다운로드 완료 확인을 다시 보냅니다.\r\n- 1:1 파일 수신 여부 창의 조회 조건을 실제 파일 수신 추적 키인 첨부 토큰+수신자와 맞췄습니다. 같은 파일을 같은 사람에게 다시 보낸 복사본이 메시지 번호 차이 때문에 대기로 나오는 경우를 보완했습니다.\r\n- 병합 검증이 거부된 경우 UI에서도 해당 사용자 제거를 진행하지 않도록 연결했습니다.\r\n- 발신 PC에 완료 기록이 이미 있고 사용자 병합 때문에 연결만 어긋난 경우는 **발신 PC의 이번 보완판에서 복구할 수 있습니다.** 이 경우 파일을 다시 다운로드할 필요가 없습니다.\r\n- 발신 PC에 완료 확인 자체가 없는 경우는 앞선 보완처럼 수신 PC의 실제 다운로드 완료 기록을 재전송해야 합니다. 수신 PC에도 재전송 보완이 적용되어 있어야 하며, 해당 기록과 사용자 데이터가 남아 있어야 합니다.\r\n- 버전 번호를 그대로 유지했으므로 기존 476의 자동 업데이트 기능은 이번 476 보완판을 더 높은 버전으로 판단하지 않습니다. 이 소스로 빌드한 실행파일을 실제 사용하는 프로그램에 교체해야 변경이 적용됩니다. 프로그램 폴더 교체 시 기존 사용자 데이터는 유지합니다.\r\n- `validation/verify_attachment_identity_sql.py`: 14개. 기존 오류 재현, 과거 DB 재열기 후 복구, 새 병합, 완료/대기 충돌, 다른 수신자 보존, 그룹 중복 인원, 늦은 확인, 확인 재전송 주소, 트랜잭션 롤백.\r\n- `validation/verify_attachment_delivery_sql.py`: 12개. 기존 수신자별 완료 표시 검증.\r\n- `validation/verify_download_receipt_outbox_sql.py`: 15개. 기존 완료 확인 저장·재전송 SQL 검증.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.476/MiraeLanMessenger_0.3.476.zip"
 }
