@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.509",
-    "package":  "MiraeLanMessenger_0.3.509.zip",
-    "sha256":  "9410637b79cc25263b71890438cb132b5e03ae7b1b101df173aab2c61590b129",
-    "publishedAtUtc":  "2026-09-21T05:23:01.7145416+00:00",
+    "version":  "0.3.511",
+    "package":  "MiraeLanMessenger_0.3.511.zip",
+    "sha256":  "0eadb70da0368a61f7c3db23fc1309da22a376cef42e245fca6d0cc1967dc3d1",
+    "publishedAtUtc":  "2026-09-21T07:34:18.8138887+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.509\r\n\r\n- 그랜드라운딩 Excel 하단 여백을 0.45인치, 바닥글 여백을 0.18인치로 변경.\r\n- 메신저는 바닥글 전용 높이와 표 사이 간격을 별도 확보. 긴 설명문도 지정 영역 안으로 축소.\r\n- 도면의 65개 행 높이를 모두 15pt로 고정하고 그림 anchor와 shape transform의 위치·크기를 일치시킴.\r\n- 각 PNG의 실제 가로세로 비율로 도면 크기 계산. 10F 위, 3F 아래, A4 1×1페이지 맞춤.\r\n- 그랜드라운딩의 인쇄 요청에 OneSided / PagesPerSide=1 명시. 기존 PDF 인쇄 버튼·컨텍스트 메뉴·브라우저 단축키가 이 경로를 우회하지 않도록 처리.\r\n- 그랜드라운딩 전용 인쇄 설정 패널은 PDF 미리보기와 함께 프린터·매수·방향·색상을 표시.\r\n- 다른 인쇄 창과 updater 핵심 코드는 유지.\r\n- 관리자 작업치료 시간표와 작업치료 현황 업로드를 별도 항목으로 분리.\r\n- 기존 시간표 저장소와 평일 대체 연결은 유지.\r\n- 그랜드라운딩은 전용 현황 저장소·공유 요청으로 연결. 시간표 자동 대체·이관 없음.\r\n- 현황 파일의 무분별한 디스크 누적 및 정적 메모리 보관 방지.\r\n- 기존 전체 시간대·단면 인쇄·업데이트 보호 코드 유지.\r\n- 관리자 OT 원본을 그랜드라운딩 재활치료부에서 자동 연결합니다.\r\n- 전체 시간대(13타임) Excel·인쇄 출력을 추가합니다.\r\n- 기존 509 인쇄 개선 및 업데이트 보호 코드를 유지합니다.\r\n- RM·그랜드라운딩의 긴 제목과 셀 내용이 좌우 또는 위아래에서 잘리지 않도록 측정한 글자 크기를 셀 안에 맞춥니다.\r\n- 그랜드라운딩 PDF에 단면(Simplex) 및 출력 영역 맞춤(AppDefault) 인쇄 기본값을 지정합니다.\r\n- 일정표와 도면은 별도 PDF 페이지를 유지합니다. 도면 위·아래 그림은 한 장입니다.\r\n- 기존 업데이트 준비·파일 검증·실패 복원 코드는 유지하고 본체·업데이터 버전을 509로 맞춥니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.509/MiraeLanMessenger_0.3.509.zip"
+    "releaseNotes":  "v0.3.511\r\n\r\n- 서버 stdout/stderr를 UTF-8로 읽어 한글 로그가 깨지는 문제 수정.\r\n- 자동 상태 조회는 버튼 활성 상태와 스크롤을 매번 바꾸지 않도록 수정.\r\n- 관리자 확인 후 평일 OT·PT와 토요일 작업자료를 완전 초기화하고 새 서버 시작. 실패 시 기존 자료 복원.\r\n- 관리자 시간표 원본, 별도 백업 파일, 메신저 대화와 게시글은 유지.\r\n- 일정표의 입원/퇴원 행을 클릭하면 줄바꿈을 유지한 전체 사유 상세 표시.\r\n- 매일 자정 로그 초기화와 기존 업데이트 복원 기능 유지.\r\n- 공개 버전 511 유지. 511 미만의 기존 버전은 업데이트 가능. 이미 511인 PC는 수정본 직접 교체 필요.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.511/MiraeLanMessenger_0.3.511.zip"
 }
