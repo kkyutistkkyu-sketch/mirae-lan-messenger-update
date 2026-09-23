@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.514",
-    "package":  "MiraeLanMessenger_0.3.514.zip",
-    "sha256":  "2350feafdd5e168c8b8517afc814b5f87449765f9cdc3ab970c483d3ed2299a9",
-    "publishedAtUtc":  "2026-09-22T23:09:11.1785773+00:00",
+    "version":  "0.3.515",
+    "package":  "MiraeLanMessenger_0.3.515.zip",
+    "sha256":  "56c9c8792cec402f96b2567bb7708c9f7da4f0e28495997d1f7d807577f8bd25",
+    "publishedAtUtc":  "2026-09-23T04:14:55.8445478+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.514\r\n\r\n- 공지사항 상단을 단일 Grid 행으로 배치했습니다. 부서별 공지사항·부서 선택·새 기능 안내·공지사항 일괄 열람 완료·글쓰기가 한 줄에 표시됩니다. 부서 선택 영역은 창 너비에 맞춰 늘어나며 세 버튼의 문구는 유지합니다. 중복 부서 요약 배지는 선택 영역의 도움말로 옮겼고, 부서별 미열람 숫자와 공지사항 탭 배지는 유지합니다.\r\n- 이번 변경은 화면 배치와 수정본 표시입니다. 공지 일괄 읽음 저장, 중계 삭제·정리 기록, 업데이트 설치 및 복구 로직은 r2와 동일합니다. r2에서 실행한 189개 검사 결과는 UPDATE_VERIFICATION_514_R2.md와 validation/repair_notice_514_r2에 있습니다. 이번에는 해당 검사를 중복 실행하지 않았습니다.\r\n- 이번 검증: Windows x64 WPF publish, 사전검사, 단일 행 XAML 구조 및 버튼 순서, 실제 Windows EXE 버전 리소스와 최신 DLL 포함 여부, 업데이트 ZIP의 CRC·해시·manifest·production 압축 해제. 상세 결과는 validation/notice_toolbar_514_r3 및 FULL_PACKAGE_VERIFICATION.json에 있습니다.\r\n- 실제 Windows 화면 조작·배율별 확인 및 병원 PC 설치는 이 Linux 환경에서 수행하지 못했습니다.\r\n- 공개 버전은 0.3.514입니다. 이미 514를 사용하는 PC는 메신저를 종료한 뒤 r3 실행 파일로 교체해야 합니다. 이전 소스와 섞지 말고 새 폴더에 압축을 풀어 사용하세요.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.514/MiraeLanMessenger_0.3.514.zip"
+    "releaseNotes":  "v0.3.515\r\n\r\n- 외진 일괄 등록·가져오기, 입원/퇴원 혼합 입력, 전실 여러 명 등록을 수신자별 한 알림으로 묶음\r\n- 제목에 실제 항목 수 표시, 본문에 번호별 환자 정보·변경 전후·삭제 직전 정보 보존\r\n- 전실 ‘목록에 추가’ 후 한 번에 등록, 개별 연속 변경/삭제도 마지막 저장 후 약 3초 모아 발송\r\n- 재시작·전송 실패 재시도 시 묶음과 메시지 ID 유지, 중복·누락 방지\r\n- 관리자·작성·수신 PC에 r3 적용 필요. 기존 515는 동일 버전 자동 업데이트 대상이 아님.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.515/MiraeLanMessenger_0.3.515.zip"
 }
