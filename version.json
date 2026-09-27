@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.515",
-    "package":  "MiraeLanMessenger_0.3.515.zip",
-    "sha256":  "56c9c8792cec402f96b2567bb7708c9f7da4f0e28495997d1f7d807577f8bd25",
-    "publishedAtUtc":  "2026-09-23T04:14:55.8445478+00:00",
+    "version":  "0.3.517",
+    "package":  "MiraeLanMessenger_0.3.517.zip",
+    "sha256":  "6f21a20b58a1d63d2276e27f58c4ed9c9dcd1199521fd417cc50f046eec2a888",
+    "publishedAtUtc":  "2026-09-27T11:29:05.5574572+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.515\r\n\r\n- 외진 일괄 등록·가져오기, 입원/퇴원 혼합 입력, 전실 여러 명 등록을 수신자별 한 알림으로 묶음\r\n- 제목에 실제 항목 수 표시, 본문에 번호별 환자 정보·변경 전후·삭제 직전 정보 보존\r\n- 전실 ‘목록에 추가’ 후 한 번에 등록, 개별 연속 변경/삭제도 마지막 저장 후 약 3초 모아 발송\r\n- 재시작·전송 실패 재시도 시 묶음과 메시지 ID 유지, 중복·누락 방지\r\n- 관리자·작성·수신 PC에 r3 적용 필요. 기존 515는 동일 버전 자동 업데이트 대상이 아님.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.515/MiraeLanMessenger_0.3.515.zip"
+    "releaseNotes":  "v0.3.517\r\n\r\n- 사용자가 지정한 첫 번째 제안의 소제목 9개로 미래워크 메뉴 문구를 바로잡았습니다. 메뉴 기능·순서·아이콘·화살표는 그대로입니다.\r\n- 미래 게시판: 병원 소식과 자료를 함께 나누는 공간\r\n- 전자결재: 근무·근태·청구 문서를 간편하게 처리\r\n- 환자전체시간표: 환자별 치료 일정과 변경사항을 한눈에\r\n- RM 회진표 · 그랜드라운딩: 주치의별 회진 자료를 자동으로 정리\r\n- 환자 경과 및 특이사항: 병동별 기록을 모아 주치의에게 보고\r\n- 병동 딜리버리 변환기: 병동 전달 시간표를 빠르게 준비\r\n- 회복평가 · AI 리포트: 회복 변화를 살피고 AI 리포트를 확인\r\n- 평일 실시간 대체 프로그램: 평일 OT·PT 대체 일정을 함께 조정\r\n- 토요일 실시간 대체 프로그램: 토요일·공휴일 대체 일정을 함께 조정\r\n- Windows x64 대상 빌드, 사전 검사, 배포 ZIP 무결성과 압축 해제를 검증합니다. 실제 Windows GUI는 Linux 빌드 환경에서 실행할 수 없습니다.\r\n- 기존 517 사용 PC에는 이 R8 수정본을 다시 적용해야 합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.517/MiraeLanMessenger_0.3.517.zip"
 }
