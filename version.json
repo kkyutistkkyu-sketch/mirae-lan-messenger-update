@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.522",
-    "package":  "MiraeLanMessenger_0.3.522.zip",
-    "sha256":  "b119c0babd585046ef032ee941d89542c448fae22280832fb4e8f77d5686cffb",
-    "publishedAtUtc":  "2026-09-29T10:41:27.8504177+00:00",
+    "version":  "0.3.523",
+    "package":  "MiraeLanMessenger_0.3.523.zip",
+    "sha256":  "33ed1d4b6de539b2ab13e74a741ec38030b49977928126355b49c3cad0624eb2",
+    "publishedAtUtc":  "2026-09-29T11:33:45.0844725+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.522\r\n\r\n- 전체 대화의 ‘외부 기록 가져오기’를 ‘기록 가져오기’로 변경. 기존 Mirae Messenger / IP Messenger 선택 유지.\r\n- ‘기록 내보내기’ 및 ‘사내메신저 기록 가져오기’ 추가. 대화, 그룹 대화 기록, 링크, 사진 미리보기와 접근 가능한 첨부 원본을 ZIP에 저장.\r\n- 새 PC의 기존 대화는 유지. 이전 1:1 대화는 같은 상대방 ID로 시간순 병합. 동일 메시지 ID는 중복 추가하거나 덮어쓰지 않음.\r\n- 과거 기록은 읽은 기록으로 복원. 발송 대기열, 계정 비밀번호, PC 식별자, 그룹 참여 권한은 이전하지 않음. 그룹 과거 기록은 전체 대화에서 열람.\r\n- 평일 OT/PT 및 토요일 전달시간표는 원본 XLSX를 화면에 내장하여 별도 서식 HTTP 요청 없이 출력. PT 출력 NDT → 운동치료 (추가 표기 유지).\r\n- 다운로드 완료 후 파일/폴더를 열면 해당 완료 항목을 닫음. 진행 중인 다른 다운로드는 유지.\r\n- 대화창을 닫으면 해당 창에서 열었던 이미지 미리보기도 닫음.\r\n- 기존 521의 비밀번호 방식 유지. 별도 개발한 전자결재·계정 기능은 이번 패키지에 합치지 않음.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.522/MiraeLanMessenger_0.3.522.zip"
+    "releaseNotes":  "v0.3.523\r\n\r\n- 미래워크 로그인 클릭, 관리자 미로그인 상태의 전자결재 클릭 시 521 R6의 기존 준비중 오버레이를 표시합니다.\r\n- 기존 미래워크 아이콘·흰색 안내 카드·어두운 배경·제목·설명·확인 버튼을 그대로 재사용합니다.\r\n- 확인 버튼 및 Esc로 닫을 수 있습니다.\r\n- 관리자 로그인 시 전자결재 진입, 보고장·평일·토요일 대체의 기존 암호 방식은 유지합니다.\r\n- 공개 버전은 0.3.523, 소스 리비전만 R2로 변경합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.523/MiraeLanMessenger_0.3.523.zip"
 }
