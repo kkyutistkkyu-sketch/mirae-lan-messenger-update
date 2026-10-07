@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.543",
-    "package":  "MiraeLanMessenger_0.3.543.zip",
-    "sha256":  "401479d1ac9c7881826d0c597a5fb6dfce295a5140b65dc2364ddc0830535581",
-    "publishedAtUtc":  "2026-10-06T08:09:16.5575680+00:00",
+    "version":  "0.3.544",
+    "package":  "MiraeLanMessenger_0.3.544.zip",
+    "sha256":  "2029739c483800d16b6ed6c46d7a99ef819f78d3d468a2f8ab081a823f8135c3",
+    "publishedAtUtc":  "2026-10-07T05:10:11.2610096+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.543\r\n\r\n- 1:1·그룹대화에서 검색 해제를 기다리는 중 창을 닫으면, 이후 커서 복원과 검색창 포커스 처리를 중단합니다.\r\n- 이미 예약된 입력창 포커스 작업도 실행 직전 창 종료 여부를 확인합니다. 닫힌 검색창을 다시 표시하지 않습니다.\r\n- 종료된 공통 입력 컨트롤의 포커스·커서·선택·텍스트·스크롤 접근을 차단하여 해제된 NativeEditor에 접근하지 않습니다.\r\n- 검색 중 Esc는 검색 해제, 이후 Esc는 기존 답장 취소·창 닫기 순서를 유지합니다. 초안 저장과 그룹 공용 PC 발신자 입력 흐름을 유지합니다.\r\n- 542의 근무표·총무과·휴직 조회 기능을 포함합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.543/MiraeLanMessenger_0.3.543.zip"
+    "releaseNotes":  "v0.3.544\r\n\r\n- 전체 메시지를 두 번 눌러 연 메시지 전체보기 화면에 보낸 사람과 연결되는 1:1 대화 버튼을 추가했습니다.\r\n- 수신 확인 상단 보낸 사람 영역에도 같은 버튼을 추가했습니다.\r\n- 발신자 ID로 연결하며, 이미 열린 대화가 있으면 해당 창을 활성화합니다. 사용자 명부에 없는 발신자도 메시지의 ID를 이용해 오프라인 대화 대상으로 연결합니다.\r\n- 일반 계정은 메시지형 설정에서도 1:1 대화창을 엽니다. 다사용 공용 PC는 기존 발신인 입력을 위한 메시지 작성창 흐름을 유지합니다.\r\n- 내가 보낸 메시지와 발신자 ID가 없는 메시지에는 발신자 대화 버튼이 표시되지 않습니다.\r\n- 수신 확인의 발신자 영역과 전달·읽음·첨부 상태를 두 줄로 배치했습니다.\r\n- 543 검색·Esc 종료 오류 수정과 이전 근무표·총무과 기능을 포함합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.544/MiraeLanMessenger_0.3.544.zip"
 }
