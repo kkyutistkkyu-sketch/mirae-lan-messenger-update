@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.546",
-    "package":  "MiraeLanMessenger_0.3.546.zip",
-    "sha256":  "e60b10c7bb6c8fb381c6c6d14cea6ed1d5dd7f6d0ad379f39e081ec0ab723568",
-    "publishedAtUtc":  "2026-10-08T23:33:45.9158047+00:00",
+    "version":  "0.3.547",
+    "package":  "MiraeLanMessenger_0.3.547.zip",
+    "sha256":  "d360b8d6bdee48ca6156a78794f50a2fa433ff629d4dfc6f0a4c20204c814e8b",
+    "publishedAtUtc":  "2026-10-12T00:05:01.7088028+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.546\r\n\r\n- ‘해당 조건의 변경 시간표 없음’과 빈 목록 안내 줄을 제거했습니다.\r\n- 병합된 시간 칸 아래에 있는 평일·토요일/공휴일 치료도 읽습니다. 마지막 환자의 추가 시간 행과 초 단위·오전/오후 시간 표기도 인식합니다.\r\n- 변경 전 환자 데이터를 변경 기록과 함께 보관합니다. 관리 원본 파일을 덮어써도 이후 반영 시 기존 값과 비교하며, 반영 실패 시 기존 비교 자료를 보존합니다.\r\n- 운동·작업·연하·인지·도수·언어/심리 담당자, 평일 및 토요일/공휴일 치료, 치료 위치를 비교합니다.\r\n- 같은 시간의 여러 치료를 단순 ‘구성 변경’으로 뭉뚱그리지 않고 변경된 치료와 위치를 표시합니다.\r\n- 날짜별 짧은 문장: ‘09:00 (토·공휴일) 작업치료 추가’, ‘09:00 치료 위치: 기존 → 변경’, ‘운동치료 담당: 기존 → 변경’.\r\n- 추가 초록·삭제 빨강·변경 보라 구분과 작은 병동 선택 상자, 픽셀 가로 스크롤을 유지합니다.\r\n- 오늘 입원 명단의 환자는 중복 표시하지 않고 기존 입원 카드에 ‘변경 있음’을 표시합니다. 환자 선택 후 ‘변경 내용 확인’으로 조회합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.546/MiraeLanMessenger_0.3.546.zip"
+    "releaseNotes":  "v0.3.547\r\n\r\n- 평일 대체 OT·PT의 1·2순위 환자가 목록 영역에 가려지던 문제를 수정했습니다. 각 순위의 높이를 유지하고 전체 목록을 스크롤합니다.\r\n- 전체 대화에서 ZIP 내보내기·불러오기 시 화면 안에 보라색 로딩 바와 처리 단계를 표시합니다.\r\n- 파일 확인, 기록·첨부파일 불러오기(처리 개수), 기존 기록 합치기, 대화 목록 적용까지 진행 표시를 유지합니다.\r\n- 처리 시간이 일정하지 않아 임의의 백분율 대신 움직이는 로딩 바를 사용합니다.\r\n- 상태 문구는 초당 최대 5회 갱신하며 작업 종료·실패 시 타이머와 애니메이션을 중지합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.547/MiraeLanMessenger_0.3.547.zip"
 }
