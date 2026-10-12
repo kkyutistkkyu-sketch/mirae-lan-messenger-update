@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.547",
-    "package":  "MiraeLanMessenger_0.3.547.zip",
-    "sha256":  "d360b8d6bdee48ca6156a78794f50a2fa433ff629d4dfc6f0a4c20204c814e8b",
-    "publishedAtUtc":  "2026-10-12T00:05:01.7088028+00:00",
+    "version":  "0.3.548",
+    "package":  "MiraeLanMessenger_0.3.548.zip",
+    "sha256":  "02778d08e42c7435000c2da7da37a4fb6eae2d5cce62134eba33c99b54ff6385",
+    "publishedAtUtc":  "2026-10-12T03:14:53.8372332+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.547\r\n\r\n- 평일 대체 OT·PT의 1·2순위 환자가 목록 영역에 가려지던 문제를 수정했습니다. 각 순위의 높이를 유지하고 전체 목록을 스크롤합니다.\r\n- 전체 대화에서 ZIP 내보내기·불러오기 시 화면 안에 보라색 로딩 바와 처리 단계를 표시합니다.\r\n- 파일 확인, 기록·첨부파일 불러오기(처리 개수), 기존 기록 합치기, 대화 목록 적용까지 진행 표시를 유지합니다.\r\n- 처리 시간이 일정하지 않아 임의의 백분율 대신 움직이는 로딩 바를 사용합니다.\r\n- 상태 문구는 초당 최대 5회 갱신하며 작업 종료·실패 시 타이머와 애니메이션을 중지합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.547/MiraeLanMessenger_0.3.547.zip"
+    "releaseNotes":  "v0.3.548\r\n\r\n- 배포 준비 중 업데이터 실행 실패(exit -2147450726)를 일으킨 불완전한 실행 파일을 교체했습니다.\r\n- 버전 정보뿐 아니라 단일 파일 번들 헤더·내부 파일 목록·진입 DLL·런타임 구성까지 검증합니다.\r\n- 빌드/배포 준비 및 업데이터 복구 패키지에 동일한 검사를 적용했습니다.\r\n- 미래워크의 ‘창 열기 / 창 닫기’ 버튼을 제거했습니다.\r\n- 업무 메뉴는 항상 펼쳐진 상태로 표시됩니다.\r\n- 기존 PC에 저장된 접힘 설정도 해제하며 재실행 후에도 펼쳐진 상태를 유지합니다.\r\n- 547의 평일 대체 1·2순위 환자 표시 수정과 대화 ZIP 내보내기·불러오기 진행 표시를 포함합니다.\r\n- 입력 중 표시 기능은 포함하지 않습니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.548/MiraeLanMessenger_0.3.548.zip"
 }
