@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.561",
-    "package":  "MiraeLanMessenger_0.3.561.zip",
-    "sha256":  "a0fca42fea27a3eb0b0469939b35221531122b367035eed592ef8736a94fb49c",
-    "publishedAtUtc":  "2026-10-19T05:43:59.4083111+00:00",
+    "version":  "0.3.562",
+    "package":  "MiraeLanMessenger_0.3.562.zip",
+    "sha256":  "4326ef99d372871110f4ac5c659182577b8ac7627b9b29337b81269c828f7d17",
+    "publishedAtUtc":  "2026-10-19T06:14:02.2057182+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.561\r\n\r\n- PT 치료 선택에서 NDT·보행·매트 중 어느 항목을 선택해도 환자용 병동 전달 시간표에는 운동치료로 표시합니다.\r\n- 추가 치료는 운동치료(추가)로 표시하며 기존 주황색 강조를 유지합니다.\r\n- 평일 OT·PT 및 토요일의 환자용 시간표 출력에 동일하게 적용합니다.\r\n- 선택한 오더 종류, 잔여 오더 및 배정·집계·저장 데이터는 기존 구분을 유지합니다.\r\n- 이미 등록된 대체 내역도 561에서 시간표를 다시 생성하면 새 표시가 적용됩니다. 기존에 내려받은 파일은 다시 내려받아야 합니다.\r\n- 560 R8의 달력·입퇴원 열 정렬·통합 창 개선과 559의 딜리버리 셀 크기 자동 조정 기능을 포함합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.561/MiraeLanMessenger_0.3.561.zip"
+    "releaseNotes":  "v0.3.562\r\n\r\n- 1:1·그룹 대화창을 열 때 데이터 로딩 직후 화면을 공개하던 순서를 보완했습니다. 지연된 텍스트 배치와 목록 측정 작업이 처리된 뒤, 연속된 두 번의 측정에서 행 높이·위치·창 너비·스크롤 범위가 안정적일 때 대화 내용을 표시합니다.\r\n- 길이가 다른 말풍선 사이에서 이전 컨테이너의 배치가 재사용되지 않도록 Standard 가상화로 변경했습니다. 전체 기록을 한꺼번에 그리지 않는 가상화와 픽셀 스크롤은 유지합니다.\r\n- 배치 중 메시지가 옆 행을 덮어 그리지 않도록 행 경계를 적용합니다. 메시지 높이를 고정하거나 본문을 삭제하는 변경은 아닙니다.\r\n- 초기 준비 중 숨겨진 내용의 마우스 입력을 차단합니다. 창을 닫으면 화면 공개를 중단하고, 배치 실패 시 기존 다시 시도 안내를 유지합니다.\r\n- 고정 시간 대기나 이미지 다운로드 완료 대기를 추가하지 않았습니다. 미읽음 위치 선정, 검색·답장, 원본 이미지 수신, 최신 대화 추적 규칙은 유지합니다.\r\n- 561의 NDT·보행·매트 환자용 시간표 운동치료 표시와 560 R8 통합 창 개선을 포함합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.562/MiraeLanMessenger_0.3.562.zip"
 }
