@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.590",
-    "package":  "MiraeLanMessenger_0.3.590.zip",
-    "sha256":  "6a4720f731590cc4dfcb407b8f18943d5e661e9c93ca65dde23f4f75a696ec0f",
-    "publishedAtUtc":  "2026-10-30T07:52:44.6810420+00:00",
+    "version":  "0.3.591",
+    "package":  "MiraeLanMessenger_0.3.591.zip",
+    "sha256":  "7648fbe08727b71411584efac667da2312f26c411e6123d8a68a34b76ef4783f",
+    "publishedAtUtc":  "2026-10-30T08:44:07.7207846+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.590\r\n\r\n- 토요일·공휴일 변환 완료 후 일부 환자 미매칭·중복·파일 인식 실패가 있더라도 생성된 표의 엑셀·CSV·인쇄·복사 버튼을 유지합니다. 주의사항은 노란색으로 구분합니다.\r\n- 실제 변환 실패 시에는 이전 결과의 출력·복사·미리보기를 차단합니다.\r\n- 딜리버리 평일/토요일, RM 회진표 등 공통 통합문서 인쇄는 표별 A4 한 장 안에 모든 행·열을 비율대로 축소합니다. 작은 표를 강제로 확대하지 않습니다.\r\n- 공통 인쇄창과 환자전체시간표 인쇄는 프린터/매수 선택 후 A4·추가 여백 0·배율 100%·한 면당 한 페이지로 요청합니다. 이미 문서에 포함된 여백에 브라우저 여백을 중복 적용하지 않습니다.\r\n- 전자결재 PDF의 기존 용지 방향과 페이지 구분, 그랜드라운딩 일정표/도면 페이지 및 단면 출력, 환자시간표 위·아래 두 사본 배치는 유지합니다.\r\n- 589 R2까지의 기능을 포함합니다. 새로운 주기적 작업이나 중계기 조회를 추가하지 않았습니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.590/MiraeLanMessenger_0.3.590.zip"
+    "releaseNotes":  "v0.3.591\r\n\r\n- 환자전체시간표·딜리버리·RM 회진표의 표 미리보기를 브라우저 없이 표시합니다. A4 한 장 전체가 창 안에 보이며 여러 장은 이전/다음으로 확인합니다.\r\n- 미리보기 준비는 90초로 제한하고 실패 시 오류를 표시합니다. 닫기/취소 후 작업이 끝나면 임시 파일을 정리합니다.\r\n- 인쇄는 프린터의 A4 용지와 실제 출력 가능 영역을 확인하고 모든 행·열을 같은 비율로 맞춥니다. 장치의 출력 불가능한 여백과 원점 차이를 보정합니다.\r\n- 기존 환자시간표 위·아래 두 사본, RM별 페이지, 그랜드라운딩 도면/단면 출력, 590의 토요일·공휴일 출력 버튼 복구를 유지합니다.\r\n- 화면에는 현재 한 페이지만 읽으며 새 주기 작업·중계기 조회를 추가하지 않았습니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.591/MiraeLanMessenger_0.3.591.zip"
 }
