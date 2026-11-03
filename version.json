@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.594",
-    "package":  "MiraeLanMessenger_0.3.594.zip",
-    "sha256":  "d8449c9da6b984ea78d0c0210a2cc14785c7667739e1592b2beaac00add5a81c",
-    "publishedAtUtc":  "2026-11-03T00:32:02.6399187+00:00",
+    "version":  "0.3.595",
+    "package":  "MiraeLanMessenger_0.3.595.zip",
+    "sha256":  "3820f5534950d58b7042b6bd00ea8de6e81382d0136b67ddbaf345fdebebb9c3",
+    "publishedAtUtc":  "2026-11-03T01:13:21.9549511+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.594\r\n\r\n- CREATE_GITHUB_UPDATE.cmd의 일반 경로에서 별도 WPF 테스트 호스트 실행을 분리했습니다. 화면 테스트는 VERIFY_DEVELOPER_UI.cmd에서 명시적으로 실행합니다.\r\n- 일반 업데이트 준비에서는 실제 배포 EXE에 포함된 메신저 DLL의 WPF 리소스 전체를 읽어 손상/누락을 검사하고 병원 로고 및 아이콘을 소스와 비교합니다. WPF 창이나 별도 메신저 인스턴스를 시작하지 않습니다.\r\n- 최종 ZIP을 실제 업데이트 압축 해제 코드로 풀고 같은 리소스 검사를 다시 수행합니다. EXE 번들, 버전, 빌드 식별, SHA256, 배포 URL, 이전 버전 업데이트/롤백 검사는 유지합니다.\r\n- R2의 일정표 입원·퇴원 등록 화면 통일, R1 필수 복구 문서 및 594의 업무 창 복귀·미분류 상세·병상 지표 정렬을 포함합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.594/MiraeLanMessenger_0.3.594.zip"
+    "releaseNotes":  "v0.3.595\r\n\r\n- 미래워크의 상시 260px 영역을 하단 44px 메뉴로 변경했습니다. 전체 업무 메뉴는 위로 펼쳐지며 기존 기능·권한·새 글 표시를 유지합니다.\r\n- 일정표 제목 영역을 76px에서 52px로 줄였습니다. 입원·퇴원과 전동·전실 높이를 건수와 창 높이에 맞춰 배정하고 남은 공간은 외진일정에 사용합니다.\r\n- 전동·전실이 없을 때 불필요한 표 머리글과 빈 여백을 줄이고, 등록 버튼과 0명 안내는 계속 표시합니다. 각 목록은 별도로 스크롤합니다.\r\n- 전체 달력은 접고 펼칠 수 있습니다. 낮은 창은 기본 접힘이며 아주 낮은 창에서도 팝업 달력으로 날짜를 선택할 수 있습니다.\r\n- 외진 환자·병동색·변동/삭제 표시·주치의 및 병동 필터·등록/수정/삭제 동작은 기존 연결을 유지합니다.\r\n- 병상·재원 지표 설정에서 TextBox 내부 여백을 다시 적용하던 템플릿을 이 창에 한정해 교정했습니다. 숫자 입력 높이 44px, 글자 17px, 선명한 커서를 적용하며 자동 계산과 유효성 검사는 유지합니다.\r\n- 594 R3의 업데이트 생성 수정과 기존 환자 업무 화면 수정 사항을 포함합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.595/MiraeLanMessenger_0.3.595.zip"
 }
