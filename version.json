@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.595",
-    "package":  "MiraeLanMessenger_0.3.595.zip",
-    "sha256":  "3820f5534950d58b7042b6bd00ea8de6e81382d0136b67ddbaf345fdebebb9c3",
-    "publishedAtUtc":  "2026-11-03T01:13:21.9549511+00:00",
+    "version":  "0.3.597",
+    "package":  "MiraeLanMessenger_0.3.597.zip",
+    "sha256":  "f39bd58624bd98d4b1de28993c2655880c626f13dcffdcc24348af33e8b1edc8",
+    "publishedAtUtc":  "2026-11-03T03:57:51.6329688+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
-    "releaseNotes":  "v0.3.595\r\n\r\n- 미래워크의 상시 260px 영역을 하단 44px 메뉴로 변경했습니다. 전체 업무 메뉴는 위로 펼쳐지며 기존 기능·권한·새 글 표시를 유지합니다.\r\n- 일정표 제목 영역을 76px에서 52px로 줄였습니다. 입원·퇴원과 전동·전실 높이를 건수와 창 높이에 맞춰 배정하고 남은 공간은 외진일정에 사용합니다.\r\n- 전동·전실이 없을 때 불필요한 표 머리글과 빈 여백을 줄이고, 등록 버튼과 0명 안내는 계속 표시합니다. 각 목록은 별도로 스크롤합니다.\r\n- 전체 달력은 접고 펼칠 수 있습니다. 낮은 창은 기본 접힘이며 아주 낮은 창에서도 팝업 달력으로 날짜를 선택할 수 있습니다.\r\n- 외진 환자·병동색·변동/삭제 표시·주치의 및 병동 필터·등록/수정/삭제 동작은 기존 연결을 유지합니다.\r\n- 병상·재원 지표 설정에서 TextBox 내부 여백을 다시 적용하던 템플릿을 이 창에 한정해 교정했습니다. 숫자 입력 높이 44px, 글자 17px, 선명한 커서를 적용하며 자동 계산과 유효성 검사는 유지합니다.\r\n- 594 R3의 업데이트 생성 수정과 기존 환자 업무 화면 수정 사항을 포함합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.595/MiraeLanMessenger_0.3.595.zip"
+    "releaseNotes":  "v0.3.597\r\n\r\n- 한국어 Windows에서 CREATE_GITHUB_UPDATE.cmd가 `future label` 검사로 중단되는 오류를 수정했습니다.\r\n- 입퇴원 예정 날짜를 PC 지역·사용자 지정 날짜 구분자에 관계없이 `11/04 퇴원` 형식으로 표시합니다.\r\n- 시간표 갱신 시각 표기도 동일하게 고정했습니다.\r\n- 검증 프로그램은 현재 PC 설정뿐 아니라 한국어·영어·독일어·태국어·아랍어 및 사용자 지정 날짜 구분자를 매번 검사합니다. 기존 패키지 검증은 유지합니다.\r\n- 597 R2의 호실 상세·뒤로가기·전체 환자 목록·픽셀 스크롤 기능을 유지합니다.\r\n- 버전은 0.3.597이며 빌드 식별은 0.3.597-culture-safe-package-r3-20261103입니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.597/MiraeLanMessenger_0.3.597.zip"
 }
