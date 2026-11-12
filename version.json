@@ -1,13 +1,13 @@
 {
-    "version":  "0.3.610",
-    "package":  "MiraeLanMessenger_0.3.610.zip",
-    "sha256":  "ef62668bb8243c426652e0e45485022ea9f73cbe6803ddfd5d9171bdbedc438b",
-    "publishedAtUtc":  "2026-11-12T00:34:20.1344677+00:00",
+    "version":  "0.3.611",
+    "package":  "MiraeLanMessenger_0.3.611.zip",
+    "sha256":  "d036ff32086d7eca69fddb8c8dc0166a88756f20c20feedcfd22b0ca99f10c8b",
+    "publishedAtUtc":  "2026-11-12T03:45:38.0462363+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
     "installer":  "MiraeLanMessenger_Setup.exe",
-    "installerSha256":  "b912f2740807a5f3b55ce8a049e7749b4324153b340e8562d6afc49b441db06c",
-    "releaseNotes":  "v0.3.610\r\n\r\n- 당일 보고장 편집 화면과 주치의 미리보기에서 같은 시간표 환자 정보를 사용합니다. 정확한 환자 키로만 연결하며 경과 원문을 변경하지 않습니다.\r\n- 과거 날짜는 당시 주치의·병동을 유지합니다. 여러 날짜에 걸쳐 주치의·병동이 바뀐 환자도 해당 날짜의 필터에서 선택할 수 있습니다.\r\n- 환자 미선택, 기발송 제외, 작성 내용 없음, 조회 실패를 미리보기 중앙에서 구분해 안내합니다. 필터에 맞는 선택 환자·보낼 내용 건수를 표시합니다.\r\n- 수정하지 않은 빈 미리보기에서 다시 불러오기를 눌렀을 때 불필요한 원본 저장 검사로 막히는 문제를 수정합니다. 실제 편집·미확인 저장 요청은 기존대로 안전하게 처리합니다.\r\n- 빈 미리보기 로그에는 기간·주치의·병동·건수만 기록합니다. 환자 이름·등록번호·경과 내용·보고자 이름은 기록하지 않습니다.\r\n- 609 R11의 미래워크·휴가 화면 개선을 포함합니다. 버전·업데이터·앱 이력·릴리스 문서를 610으로 일치시켰습니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.610/MiraeLanMessenger_0.3.610.zip",
-    "installerUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.610/MiraeLanMessenger_Setup.exe"
+    "installerSha256":  "dbac155f7c7f3eaf97b366eba74a7b499d23c619371330b34f9428c973313eef",
+    "releaseNotes":  "v0.3.611\r\n\r\n- 610 R1·R2의 숫자 버전이 같아 자동 업데이트에서 제외되는 문제를 피하도록 정식 버전을 0.3.611로 올렸습니다.\r\n- 메신저와 업데이터의 제품·파일 버전, VERSION.txt, BUILD_REVISION.txt, 앱 이력과 배포 생성 기준을 일치시켰습니다.\r\n- 610 R2의 보고장 환자별 충돌 조회·비교·선택, 선택 전 두 작성본 보관, 재수정 덮어쓰기 방지와 저장 응답 유실 처리를 포함합니다.\r\n- 610 R1 및 609 R11의 기존 기능과 화면 개선을 포함합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.611/MiraeLanMessenger_0.3.611.zip",
+    "installerUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.611/MiraeLanMessenger_Setup.exe"
 }
