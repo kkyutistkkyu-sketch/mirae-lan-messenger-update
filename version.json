@@ -1,13 +1,13 @@
 {
-    "version":  "0.3.611",
-    "package":  "MiraeLanMessenger_0.3.611.zip",
-    "sha256":  "d036ff32086d7eca69fddb8c8dc0166a88756f20c20feedcfd22b0ca99f10c8b",
-    "publishedAtUtc":  "2026-11-12T03:45:38.0462363+00:00",
+    "version":  "0.3.614",
+    "package":  "MiraeLanMessenger_0.3.614.zip",
+    "sha256":  "149614012aa10ef781dd3ce50768111a19ac9c8ff0353b1cd901d5bd66dc1883",
+    "publishedAtUtc":  "2026-11-12T07:24:01.2037718+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
     "installer":  "MiraeLanMessenger_Setup.exe",
-    "installerSha256":  "dbac155f7c7f3eaf97b366eba74a7b499d23c619371330b34f9428c973313eef",
-    "releaseNotes":  "v0.3.611\r\n\r\n- 610 R1·R2의 숫자 버전이 같아 자동 업데이트에서 제외되는 문제를 피하도록 정식 버전을 0.3.611로 올렸습니다.\r\n- 메신저와 업데이터의 제품·파일 버전, VERSION.txt, BUILD_REVISION.txt, 앱 이력과 배포 생성 기준을 일치시켰습니다.\r\n- 610 R2의 보고장 환자별 충돌 조회·비교·선택, 선택 전 두 작성본 보관, 재수정 덮어쓰기 방지와 저장 응답 유실 처리를 포함합니다.\r\n- 610 R1 및 609 R11의 기존 기능과 화면 개선을 포함합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.611/MiraeLanMessenger_0.3.611.zip",
-    "installerUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.611/MiraeLanMessenger_Setup.exe"
+    "installerSha256":  "fb57b96f9f3f60ad95c3bb3eb88b0a520500196edc261eda89d85a72cf60f47e",
+    "releaseNotes":  "v0.3.614\r\n\r\n- 인쇄 창을 열면 토요일·공휴일 근무표 표시가 기본 해제되어 달력과 월 특이사항만 출력됩니다.\r\n- 체크하면 근무표를 포함하며 크기·미리보기·4분할 배치와 613의 다른 기능은 유지합니다.\r\n- 근무표 해제 시 이미 그린 원본에서 근무표 영역만 제거합니다. 달력과 로고를 짧은 높이에 다시 늘이거나 압축하지 않아 모양·글자·줄 간격이 유지됩니다.\r\n- 그랜드라운딩 구역 배경은 옅은 초록색(#E8F5E9)입니다. 날짜 구역 배경과 구분됩니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.614/MiraeLanMessenger_0.3.614.zip",
+    "installerUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.614/MiraeLanMessenger_Setup.exe"
 }
