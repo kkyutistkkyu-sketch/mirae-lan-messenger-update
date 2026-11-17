@@ -1,13 +1,13 @@
 {
-    "version":  "0.3.621",
-    "package":  "MiraeLanMessenger_0.3.621.zip",
-    "sha256":  "9b4298abb36d217608ddb1fe017b44cf0befe6ca22b04a7eae201090f9bac643",
-    "publishedAtUtc":  "2026-11-17T05:15:16.0824936+00:00",
+    "version":  "0.3.622",
+    "package":  "MiraeLanMessenger_0.3.622.zip",
+    "sha256":  "4006ade5d2c4443659c5ecf5fbc2c1ce6cb8e5b4691f0cd822bd2ef887690f89",
+    "publishedAtUtc":  "2026-11-17T06:34:40.8208860+00:00",
     "mandatory":  false,
     "minimumVersion":  "0.3.3",
     "installer":  "MiraeLanMessenger_Setup.exe",
-    "installerSha256":  "52460891529a2d5f03dacd104b689c9a91494a55a6385a7c853b6f84465e7977",
-    "releaseNotes":  "v0.3.621\r\n\r\n- 전동·전실 인원수를 등록 버튼 바로 왼쪽으로 이동했습니다. 일반 보기와 통합 보기 모두 적용합니다.\r\n- 부서·연결 상태 문구를 621 R1 대비 2px 아래로 이동했습니다.\r\n- 상단 검색창 오른쪽 같은 줄에 설정·일정표·대화형/메시지형 전환 버튼을 배치했습니다.\r\n- 미래병원 로고는 원본 이미지를 유지하고 표시 영역을 144×74로 확대했습니다. 비율 유지 및 고품질 축소를 적용합니다.\r\n- 621 R1의 그룹 검색 배치, 보고장 환자 목록 픽셀 스크롤, 미리보기 화살표 및 공용대화 설명 제거를 포함합니다.\r\n- 620 R4까지의 회진표 출력·메시지 발송·보고장 원본 반영·일정·픽셀 스크롤 변경을 포함합니다.",
-    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.621/MiraeLanMessenger_0.3.621.zip",
-    "installerUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.621/MiraeLanMessenger_Setup.exe"
+    "installerSha256":  "b75924bb344582856489a80603e5d8ea32faa248c190f84d4754d9fc09998e61",
+    "releaseNotes":  "v0.3.622\r\n\r\n- R2: 카톡방 크기의 1:1·그룹 대화에서 받은 말풍선과 꼬리를 첨부 예시와 같은 #EFEFF1 연회색으로 변경했습니다.\r\n- 설정에서 ‘카톡방 크기’를 선택한 경우 1:1 및 그룹 대화방의 본문 배경을 연한 하늘색에서 흰색(#FFFFFF)으로 변경했습니다.\r\n- 621 R3까지의 기능과 수정 사항을 포함합니다.",
+    "packageUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.622/MiraeLanMessenger_0.3.622.zip",
+    "installerUrl":  "https://github.com/kkyutistkkyu-sketch/mirae-lan-messenger-update/releases/download/v0.3.622/MiraeLanMessenger_Setup.exe"
 }
